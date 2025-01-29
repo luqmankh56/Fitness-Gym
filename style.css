@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    background-image: url('gym.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: 800;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+p {
+    font-size: smaller;
+    text-align: center;
+    color: white;
+}
+
+input[type="button"] {
+    padding: 5px 8px;
+    font-size: medium;
+    font-weight: 800;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-color: gray;
+    cursor: pointer;
+}
